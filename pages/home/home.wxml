@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<!-- 页面文本的内容,并使用class来设置文本的样式 -->
+<text class="title">helloworld</text>
+<!-- 定义一个按钮，设置为小型 -->
+<button size="mini">按钮</button>

@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+.title{
+  /* 设置文本的颜色颜色 */
+  color:red;
+  /*  设置文本字体的大小*/
+  font-size:30px;
+}
