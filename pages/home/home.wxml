@@ -3,3 +3,5 @@
 <text class="title">helloworld</text>
 <!-- 定义一个按钮，设置为小型 -->
 <button size="mini">按钮</button>
+<view>1.知识点1</view>
+<view>哈哈哈哈</view>
