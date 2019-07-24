@@ -3,3 +3,18 @@
 <text class="title">helloworld</text>
 <!-- 定义一个按钮，设置为小型 -->
 <button size="mini">按钮</button>
+
+<!--第2种获取用户信息的方式 -->
+<button  size='mini'  
+open-type='getUserInfo' 
+bindgetuserinfo='handleGetUserInfo'>获取授权
+</button>
+<!-- 3.展示用户信息 -->
+<!-- 展示用户名字 -->
+<open-data type="userNickName"></open-data>
+<!-- 展示用户头像 -->
+<open-data type="userAvatarUrl"></open-data>
+
+<!-- 监听message事件 -->
+<view bindtap="handleViewClick">{{message}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
